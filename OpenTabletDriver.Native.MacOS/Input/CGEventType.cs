@@ -1,4 +1,4 @@
-﻿namespace OpenTabletDriver.Native.MacOS.Input
+namespace OpenTabletDriver.Native.MacOS.Input
 {
     public enum CGEventType : uint
     {
@@ -12,6 +12,7 @@
         kCGEventRightMouseDragged = 7,
         kCGEventKeyDown = 10,
         kCGEventKeyUp = 11,
+        kCGEventTabletProximity = 24,
         kCGEventOtherMouseDown = 25,
         kCGEventOtherMouseUp = 26,
         kCGEventOtherMouseDragged = 27
